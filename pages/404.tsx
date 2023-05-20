@@ -9,7 +9,7 @@ const Error = () => {
         setTimeout(()=>{
             router.push('/')
         }, 3000)
-    }, router)
+    }, [router])
 
     return(
         <Heading text="404"/>
